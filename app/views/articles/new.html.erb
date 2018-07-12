@@ -1,0 +1,8 @@
+<h3 class="text-center">New Article</h3>
+<div class="col-xs-12">
+<%=simple_form_for @article do |f| %>
+<%= f.input :title %>
+<%= f.input :body %>
+<%= f.submit %>
+<%end%>
+</div>
